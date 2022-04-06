@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel interactivo</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="carrusel">
+        <div class="mislider">
+
+            <div class="miSlider"><img src="/img/torre-reloj.jpg" alt=""></div>
+            <div class="miSlider"><img src="/img/bocachica.jpg" alt=""></div>
+            <div class="miSlider"><img src="/img/ciudad.jpg" alt=""></div>
+
+            <div class="slide">
+                <span class="barra show" onclick="posicionSlide(1)">
+                    <div class="arrow">
+                    </div>
+                    <div class="details">
+                        <h4>Torre del Reloj</h4>
+                        <p>La Puerta del Reloj, Torre del Reloj o Boca del Puente o Plaza Internacional Carlos Campillo
+                            es la puerta de entrada principal al centro histórico de Cartagena de Indias en Colombia y
+                            la entrada original a la ciudad fortificada (o mejor conocido en la actualidad como el
+                            Sector y/o Ciudad Amurallada). Está ubicado entre las plazas de Independencia y de los
+                            Coches.
+                        </p>
+                    </div>
+
+                    <img src="/img/torre-reloj.jpg" alt="">
+                </span>
+                <span class="barra" onclick="posicionSlide(2)">
+                    <div class="arrow"></div>
+                    <div class="details">
+                        <h4>Castillo San Luis de Bocachica</h4>
+                        <p>El Castillo de San Luis de Bocachica fue una fortaleza militar en la ciudad de Cartagena de
+                            Indias construida por los españoles durante la época colonial en lo que hoy es Colombia.
+                            Situado en la Isla Tierra Bomba, controlaba la entrada al canal de Bocachica. </p>
+                    </div>
+                    <img src="/img/bocachica.jpg" alt="">
+                </span>
+                <span class="barra" onclick="posicionSlide(3)">
+                    <div class="arrow"></div>
+                    <div class="details">
+                        <h4>Cartagena de Indias</h4>
+                        <p>Cartagena de Indias, oficialmente Distrito Turístico y Cultural de Cartagena de Indias
+                            abreviado Cartagena de Indias, D. T. y C., es la capital del departamento de Bolívar, al
+                            norte de Colombia. Fue fundada el 1 de junio de 1533 por Pedro de Heredia. Desde 1991
+                            Cartagena es un Distrito Turístico y Cultural. La ciudad está ubicada a orillas del mar
+                            Caribe.</p>
+                    </div>
+                    <img src="/img/ciudad.jpg" alt="">
+                </span>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+<script src="js/app.js"></script>
+
+</html>
